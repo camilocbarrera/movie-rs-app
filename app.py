@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 
+st.set_page_config(page_title='Sistema de Recomendación')
 st.header('📽 Sistema de recomendación de Películas 🍿')
 
 movie_list = pickle.load(open('movies.pkl', 'rb'))
